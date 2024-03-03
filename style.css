@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family:sans-serif;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 400px;
+  margin: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  
+}
